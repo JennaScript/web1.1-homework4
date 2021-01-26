@@ -169,6 +169,5 @@ def historical_results():
 
     return render_template('historical_results.html', **context)
 
-
 if __name__ == '__main__':
     app.run(debug=True)
